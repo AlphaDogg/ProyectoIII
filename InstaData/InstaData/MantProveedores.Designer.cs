@@ -52,7 +52,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.label6.BackColor = System.Drawing.Color.Teal;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(9, 298);
             this.label6.Name = "label6";
@@ -63,7 +63,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.label5.BackColor = System.Drawing.Color.Teal;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(9, 255);
             this.label5.Name = "label5";
@@ -74,7 +74,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.label4.BackColor = System.Drawing.Color.Teal;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(9, 211);
             this.label4.Name = "label4";
@@ -85,7 +85,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.label3.BackColor = System.Drawing.Color.Teal;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(9, 166);
             this.label3.Name = "label3";
@@ -96,7 +96,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.label2.BackColor = System.Drawing.Color.Teal;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(9, 118);
             this.label2.Name = "label2";
@@ -108,6 +108,7 @@
             // 
             this.dataGridView1.AllowUserToAddRows = false;
             this.dataGridView1.AllowUserToDeleteRows = false;
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.Silver;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(303, 98);
             this.dataGridView1.Name = "dataGridView1";
@@ -150,7 +151,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.label1.BackColor = System.Drawing.Color.Teal;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(9, 68);
             this.label1.Name = "label1";
@@ -176,7 +177,7 @@
             // 
             // label7
             // 
-            this.label7.BackColor = System.Drawing.Color.Red;
+            this.label7.BackColor = System.Drawing.Color.Teal;
             this.label7.Font = new System.Drawing.Font("Harlow Solid Italic", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Image = global::InstaData.Properties.Resources.suppliers1;
             this.label7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -189,7 +190,7 @@
             // 
             // btnBuscarProveedor
             // 
-            this.btnBuscarProveedor.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.btnBuscarProveedor.BackColor = System.Drawing.Color.Silver;
             this.btnBuscarProveedor.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnBuscarProveedor.Image = global::InstaData.Properties.Resources.search1;
             this.btnBuscarProveedor.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -203,7 +204,7 @@
             // 
             // btnEliminarProveedor
             // 
-            this.btnEliminarProveedor.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.btnEliminarProveedor.BackColor = System.Drawing.Color.Silver;
             this.btnEliminarProveedor.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnEliminarProveedor.Image = global::InstaData.Properties.Resources.busy;
             this.btnEliminarProveedor.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -217,7 +218,7 @@
             // 
             // btnEditarProveedor
             // 
-            this.btnEditarProveedor.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.btnEditarProveedor.BackColor = System.Drawing.Color.Silver;
             this.btnEditarProveedor.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnEditarProveedor.Image = global::InstaData.Properties.Resources.edit;
             this.btnEditarProveedor.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -231,7 +232,7 @@
             // 
             // btnAgregarProveedor
             // 
-            this.btnAgregarProveedor.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.btnAgregarProveedor.BackColor = System.Drawing.Color.Silver;
             this.btnAgregarProveedor.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnAgregarProveedor.Image = global::InstaData.Properties.Resources.plus;
             this.btnAgregarProveedor.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -247,7 +248,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::InstaData.Properties.Resources.background_solid_line_cell_bright_hogh_contrast_hd_wallpaper_49840;
+            this.BackColor = System.Drawing.Color.Teal;
             this.ClientSize = new System.Drawing.Size(944, 411);
             this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.label7);

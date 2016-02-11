@@ -44,7 +44,7 @@
             // btnFacturar
             // 
             resources.ApplyResources(this.btnFacturar, "btnFacturar");
-            this.btnFacturar.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.btnFacturar.BackColor = System.Drawing.Color.Silver;
             this.btnFacturar.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnFacturar.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnFacturar.Image = global::InstaData.Properties.Resources.invoice;
@@ -55,7 +55,7 @@
             // btnMantenimiento
             // 
             resources.ApplyResources(this.btnMantenimiento, "btnMantenimiento");
-            this.btnMantenimiento.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.btnMantenimiento.BackColor = System.Drawing.Color.Silver;
             this.btnMantenimiento.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnMantenimiento.Image = global::InstaData.Properties.Resources.settings;
             this.btnMantenimiento.Name = "btnMantenimiento";
@@ -65,7 +65,7 @@
             // btnReportes
             // 
             resources.ApplyResources(this.btnReportes, "btnReportes");
-            this.btnReportes.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.btnReportes.BackColor = System.Drawing.Color.Silver;
             this.btnReportes.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnReportes.Image = global::InstaData.Properties.Resources.statistics;
             this.btnReportes.Name = "btnReportes";
@@ -74,7 +74,7 @@
             // btnExtras
             // 
             resources.ApplyResources(this.btnExtras, "btnExtras");
-            this.btnExtras.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.btnExtras.BackColor = System.Drawing.Color.Silver;
             this.btnExtras.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnExtras.Image = global::InstaData.Properties.Resources.config;
             this.btnExtras.Name = "btnExtras";
@@ -84,7 +84,7 @@
             // menuStrip1
             // 
             resources.ApplyResources(this.menuStrip1, "menuStrip1");
-            this.menuStrip1.BackColor = System.Drawing.Color.Red;
+            this.menuStrip1.BackColor = System.Drawing.Color.Teal;
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(32, 32);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.usuarioToolStripMenuItem,
@@ -117,7 +117,7 @@
             // toolStripTextBox1
             // 
             resources.ApplyResources(this.toolStripTextBox1, "toolStripTextBox1");
-            this.toolStripTextBox1.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.toolStripTextBox1.BackColor = System.Drawing.Color.Silver;
             this.toolStripTextBox1.Name = "toolStripTextBox1";
             this.toolStripTextBox1.ReadOnly = true;
             // 
@@ -125,7 +125,7 @@
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::InstaData.Properties.Resources.background_solid_line_cell_bright_hogh_contrast_hd_wallpaper_49840;
+            this.BackColor = System.Drawing.Color.Teal;
             this.Controls.Add(this.btnExtras);
             this.Controls.Add(this.btnReportes);
             this.Controls.Add(this.btnMantenimiento);

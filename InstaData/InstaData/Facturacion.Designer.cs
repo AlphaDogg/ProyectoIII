@@ -103,7 +103,7 @@
             // 
             // panel3
             // 
-            this.panel3.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.panel3.BackColor = System.Drawing.Color.Silver;
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel3.Controls.Add(this.label15);
             this.panel3.Controls.Add(this.textBox1);
@@ -295,7 +295,7 @@
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.panel2.BackColor = System.Drawing.Color.Silver;
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel2.Controls.Add(this.label23);
             this.panel2.Controls.Add(this.textBox7);
@@ -481,6 +481,7 @@
             // 
             this.dataGridView1.AllowUserToAddRows = false;
             this.dataGridView1.AllowUserToDeleteRows = false;
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.Silver;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(5, 187);
             this.dataGridView1.Name = "dataGridView1";
@@ -511,7 +512,7 @@
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.label17.BackColor = System.Drawing.Color.Silver;
             this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label17.Location = new System.Drawing.Point(3, 6);
             this.label17.Name = "label17";
@@ -531,7 +532,7 @@
             // 
             // panel4
             // 
-            this.panel4.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.panel4.BackColor = System.Drawing.Color.Silver;
             this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel4.Controls.Add(this.label24);
             this.panel4.Controls.Add(this.label17);
@@ -555,7 +556,7 @@
             // 
             // btnRegistrar
             // 
-            this.btnRegistrar.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.btnRegistrar.BackColor = System.Drawing.Color.Silver;
             this.btnRegistrar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnRegistrar.Image = global::InstaData.Properties.Resources.finished_work;
             this.btnRegistrar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -570,7 +571,7 @@
             // 
             // label8
             // 
-            this.label8.BackColor = System.Drawing.Color.Red;
+            this.label8.BackColor = System.Drawing.Color.Teal;
             this.label8.Image = global::InstaData.Properties.Resources.basket;
             this.label8.Location = new System.Drawing.Point(7, 2);
             this.label8.Name = "label8";
@@ -579,7 +580,7 @@
             // 
             // panel5
             // 
-            this.panel5.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.panel5.BackColor = System.Drawing.Color.Silver;
             this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel5.Controls.Add(this.textBox3);
             this.panel5.Controls.Add(this.label18);
@@ -635,8 +636,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Red;
-            this.BackgroundImage = global::InstaData.Properties.Resources.background_solid_line_cell_bright_hogh_contrast_hd_wallpaper_49840;
+            this.BackColor = System.Drawing.Color.Teal;
             this.ClientSize = new System.Drawing.Size(1064, 521);
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.panel4);

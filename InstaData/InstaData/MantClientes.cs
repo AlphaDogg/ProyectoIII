@@ -41,5 +41,10 @@ namespace InstaData
         {
 
         }
+
+        private void MantClientes_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
